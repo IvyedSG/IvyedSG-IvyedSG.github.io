@@ -1,0 +1,55 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+     background-image: linear-gradient(135deg, #0E0E14 0%, #0E0E14 100%);
+}
+
+.titulo {
+     color: #F45865;
+     font-size: 55px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+
+.galeria img {
+     box-shadow: 0 8px 10px -4px rgba(228, 61, 61, 0.199);
+     border-radius: 15px;
+     
+}
+
+.materialbox-caption {
+     font-family: 'Grape Nuts', cursive;
+     bottom: 30px;
+     right: 0;
+     width: 40%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     border-radius: 10px;
+     background: #232331;
+     box-shadow: 5px 5px rgb(0, 0, 0);
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     line-height: 28px;
+}
+
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+          
+     }
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+          
+     }
+}
